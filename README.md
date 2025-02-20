@@ -195,7 +195,8 @@ This command will activate your usb and display the video feed with real-time ob
 
 ### License
 
-This project is licensed under the Apache License 2.0. You are free to use, modify, and distribute this software, provided you comply with the terms of the license. This includes providing proper attribution, including a copy of the license in your distributions, and indicating if any modifications were made. For more details, see the LICENSE file.
+## License
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). See the [LICENSE](LICENSE) file for details.
 
 ### Acknowledgment
 
