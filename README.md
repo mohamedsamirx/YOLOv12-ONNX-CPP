@@ -194,8 +194,6 @@ This command will activate your usb and display the video feed with real-time ob
 - coco.names: Contains the list of class labels used by the models.
 
 ### License
-
-## License
 This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). See the [LICENSE](LICENSE) file for details.
 
 ### Acknowledgment
