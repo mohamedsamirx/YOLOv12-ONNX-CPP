@@ -87,11 +87,9 @@ int main(){
   - **Batch Processing**: Supports processing multiple images, currently focused on single-image input.
   - **Output Tensor Extraction**: Extracts output tensors dynamically for flexible result handling.
 
-- **OpenCV Integration**: Uses OpenCV for image processing and rendering bounding boxes and labels (note: `cv::dnn` modules are not used).
+- **OpenCV Integration**: Uses OpenCV for image processing and rendering bounding boxes and labels.
 
 - **Real-Time Inference**: Capable of processing images, videos, and live camera feeds instantly.
-
-- **Cross-Platform Support**: Fully compatible with Linux, macOS, and Windows environments.
 
 - **Easy-to-Use Scripts**: Includes shell scripts for straightforward building and running of different inference modes.
 
@@ -118,13 +116,14 @@ cd YOLOv12-ONNX-CPP
 ```
 
 ### Export The YOLOv12 model
+** You can find The model weights in the models dir, But You can generate your own models On your local machine or using google colab like this [Google-Colab](https://colab.research.google.com/drive/1rtaWSaEsIJ4yc1eFbzT9kQ1cp23Aafr5?usp=drive_link).
 
 **I have used the Roboflow installation for the flash attention.**
 
 ```bash 
 git clone https://github.com/sunsmarterjie/yolov12
 cd yolov12
-pip install roboflow supervision flash-attn --upgrade -q
+pip install flash-attn --upgrade -q
 pip install -r requirements.txt
 pip install -e .
 pip install --upgrade flash-attn
@@ -179,8 +178,6 @@ To perform object detection on a video file:
 ```bash
 ./run_video.sh 
 ```
-
-The above command will process [SIG_experience_center.mp4](data/SIG_experience_center.mp4) and save the output video with detected objects.
 
 #### Run Camera Inference
 
